@@ -9,7 +9,7 @@ urlpatterns = [
     path('', include(('administracion.urls','base'))),
     path('cuentas/', include(('cuentas.urls','cuentas'))), 
     path('posts/', include(('posts.urls','posts'))), 
-    
+    path('', include(('contact.urls','contact'))), 
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:

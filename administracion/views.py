@@ -89,8 +89,3 @@ def buscar(request):
       
     return render(request, 'busqueda.html',contexto)
 
-
-
-
-
-
