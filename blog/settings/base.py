@@ -160,3 +160,5 @@ def hashed_name(self, name, *args, **kwargs):
     return original_hashed_name(self, name.strip('"'), *args, **kwargs)
 
 storage.HashedFilesMixin.hashed_name = hashed_name
+
+
